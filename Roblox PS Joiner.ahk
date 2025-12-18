@@ -32,7 +32,13 @@ Gui, Add, Text, x15 y155 w290 h15 vstatus cGray Center +BackgroundTrans, Status:
 Gui, Font, s11 bold
 Gui, Add, Progress, x15 y175 w290 h40 Disabled Background00AA00 vbtnBg, 0
 Gui, Add, Text, x15 y183 w290 h25 BackgroundTrans Center vbtnText gToggle cWhite, START MONITOR
-Gui, Show, w320 h230, RBX Monitor
+Gui, Font, s8
+Gui, Add, Text, x15 y220 w290 h15 c3399FF Center +BackgroundTrans gDiscord, Click if you need help
+Gui, Show, w320 h245, RBX Monitor
+return
+
+Discord:
+    Run, https://discord.gg/hazewtf
 return
 
 Drag:
