@@ -13,7 +13,7 @@ if !FileExist(logo)
 active := 0
 interval := 5000
 
-Gui, +AlwaysOnTop -Caption +Border +HwndhGui +LastFound
+Gui, -Caption +Border +HwndhGui +LastFound
 Gui, Color, 1F1F1F, FFFFFF 
 Gui, Font, s9 cWhite, Segoe UI
 Gui, Add, Picture, x10 y5 w25 h25 +BackgroundTrans, %logo%
